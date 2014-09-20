@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80"
+   height="80"
+   id="svg2982"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mt.svg">
+  <defs
+     id="defs2984" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.7781746"
+     inkscape:cx="38.118111"
+     inkscape:cy="41.327276"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="mm"
+     inkscape:grid-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:window-width="1431"
+     inkscape:window-height="860"
+     inkscape:window-x="30"
+     inkscape:window-y="58"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3012"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2987">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="bg">
+    <rect
+       style="fill:#000000"
+       id="rect3146"
+       width="46.097721"
+       height="46.097721"
+       x="-18.6586"
+       y="34.024509"
+       transform="matrix(0.65079136,-0.75925662,0.65079136,0.75925662,0,0)" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:label="g"
+     inkscape:groupmode="layer"
+     transform="translate(0,16)"
+     style="display:inline">
+    <rect
+       style="fill:#00ff00"
+       id="rect3010"
+       width="43.792839"
+       height="43.792839"
+       x="-6.9695354"
+       y="24.640329"
+       transform="matrix(0.65079136,-0.75925662,0.65079136,0.75925662,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="im"
+     style="display:inline">
+    <rect
+       style="fill:#000000"
+       id="rect3141"
+       width="46.097721"
+       height="5.7622151"
+       x="-18.6586"
+       y="54.191814"
+       transform="matrix(0.65079136,-0.75925662,0.65079136,0.75925662,0,0)" />
+  </g>
+</svg>
