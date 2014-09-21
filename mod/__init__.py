@@ -1,5 +1,10 @@
+# WoT map viewer
+# 
+# author: Juho Peltonen
+# license: GPL3, see gpl-3.0.txt included in the package
+
 XPM_MOD_VERSION = '1.0.0'
-XPM_MOD_URL = 'https://github.com/juho-p/wot-map-view'
+XPM_MOD_URL = 'https://github.com/juho-p/wot-map-viewer'
 XPM_MOD_UPDATE_URL = ''
 XPM_GAME_VERSIONS = ['0.9.2']
 

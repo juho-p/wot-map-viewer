@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# WoT map viewer
+# 
+# author: Juho Peltonen
+# license: GPL3, see gpl-3.0.txt included in the package
+
 import socket
 import os
 

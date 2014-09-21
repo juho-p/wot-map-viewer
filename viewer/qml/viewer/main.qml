@@ -1,3 +1,10 @@
+/*
+ * WoT map viewer
+ *
+ * author: Juho Peltonen
+ * license: GPL3, see gpl-3.0.txt included in the package
+ */
+
 import QtQuick 2.0
 import mapviewer.siemapl 1.0
 
