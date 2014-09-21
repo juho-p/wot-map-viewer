@@ -9,7 +9,7 @@
 #include <QtQml>
 #include "qtquick2applicationviewer.h"
 
-#include "siema.h"
+#include "minimap.h"
 #include <QTimer>
 
 int main(int argc, char *argv[])
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QtQuick2ApplicationViewer viewer;
-    qmlRegisterType<Siema>("mapviewer.siemapl", 1, 0, "Siema");
+    qmlRegisterType<Minimap>("mapviewer.wot", 1, 0, "Minimap");
     viewer.setMainQmlFile(QStringLiteral("qml/viewer/main.qml"));
     viewer.showExpanded();
 

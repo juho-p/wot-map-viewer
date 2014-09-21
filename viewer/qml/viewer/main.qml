@@ -6,7 +6,7 @@
  */
 
 import QtQuick 2.0
-import mapviewer.siemapl 1.0
+import mapviewer.wot 1.0
 
 Rectangle {
     id: root
@@ -14,7 +14,7 @@ Rectangle {
     width: 360
     height: 360
 
-    Siema {
+    Minimap {
         id: map
         anchors.fill: parent
 

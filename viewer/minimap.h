@@ -14,14 +14,14 @@
 
 /* Just show some image and give some info property */
 
-class Siema : public QQuickPaintedItem
+class Minimap : public QQuickPaintedItem
 {
     Q_OBJECT
     Q_PROPERTY(QString host READ host)
     Q_PROPERTY(int port READ port)
     Q_PROPERTY(QString info READ info NOTIFY infoChanged)
 public:
-    Siema();
+    Minimap();
 
     QString host() { return connection->host(); }
     int port() { return connection->port(); }

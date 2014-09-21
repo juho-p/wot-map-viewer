@@ -17,8 +17,8 @@ QML_IMPORT_PATH =
 SOURCES += main.cpp \
     connection.cpp \
     util.cpp \
-    siema.cpp \
-    simple-dds-image-reader/ddsreader.cpp
+    simple-dds-image-reader/ddsreader.cpp \
+    minimap.cpp
 
 # Installation path
 # target.path =
@@ -30,8 +30,8 @@ qtcAddDeployment()
 HEADERS += \
     connection.h \
     util.h \
-    siema.h \
-    simple-dds-image-reader/ddsreader.hpp
+    simple-dds-image-reader/ddsreader.hpp \
+    minimap.h
 
 QMAKE_CXXFLAGS += -std=c++11
 

@@ -5,23 +5,23 @@
  * license: GPL3, see gpl-3.0.txt included in the package
  */
 
-#include "siema.h"
+#include "minimap.h"
 
 #include <QPainter>
 #include <QtDebug>
 
-Siema::Siema()
+Minimap::Minimap()
 {
     connection = new Connection(this, "127.0.0.1", 4444);
-    connect(connection, &Connection::mapUpdated, this, &Siema::changeMap);
-    connect(connection, &Connection::infoUpdated, this, &Siema::infoChanged);
+    connect(connection, &Connection::mapUpdated, this, &Minimap::changeMap);
+    connect(connection, &Connection::infoUpdated, this, &Minimap::infoChanged);
 }
 
-void Siema::paint(QPainter *painter) {
+void Minimap::paint(QPainter *painter) {
     painter->drawPixmap(QRect(0, 0, width(), height()), map_image);
 }
 
-void Siema::changeMap() {
+void Minimap::changeMap() {
     map_image = QPixmap::fromImage(connection->map());
     update();
 }
