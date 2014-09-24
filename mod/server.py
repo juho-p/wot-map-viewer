@@ -122,6 +122,7 @@ def read_map(path, mapname):
             return f.read()
 
 def run(res_path, address, port):
+    print 'run map server with', address, port
     def serve(stream):
         cmdmap = {
             'INFO': send_info,

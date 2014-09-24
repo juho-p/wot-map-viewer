@@ -1,0 +1,7 @@
+# what address are we listening
+# default 'localhost' listens only local connections
+address = 'localhost'
+# address = '0.0.0.0' # this will listen all connections
+
+# what port are we listening
+port = 4444
