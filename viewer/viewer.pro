@@ -34,10 +34,3 @@ HEADERS += \
     minimap.h
 
 QMAKE_CXXFLAGS += -std=c++11
-
-OTHER_FILES += \
-    img/AT-SPG.svg \
-    img/heavyTank.svg \
-    img/lightTank.svg \
-    img/mediumTank.svg \
-    img/SPG.svg
