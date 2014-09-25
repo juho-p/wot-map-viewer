@@ -6,7 +6,7 @@
 XPM_MOD_VERSION = '1.1.0'
 XPM_MOD_URL = 'https://github.com/juho-p/wot-map-viewer'
 XPM_MOD_UPDATE_URL = ''
-XPM_GAME_VERSIONS = ['0.9.2']
+XPM_GAME_VERSIONS = ['0.9.3']
 
 
 def log(text):
